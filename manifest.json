@@ -1,0 +1,13 @@
+{
+  "name": "openzlib",
+  "description": "Open Z-Library",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "images/favicon.png",
+    "default_popup": "popup/popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
