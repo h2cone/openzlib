@@ -1,5 +1,5 @@
 const wikiUrl = 'https://en.wikipedia.org/wiki/Z-Library';
-const selector = '#mw-content-text > div.mw-content-ltr.mw-parser-output > table.infobox.vcard > tbody > tr:nth-child(4) > td > div > ul > li:nth-child(1) > span > a'
+const selector = '#mw-content-text > div.mw-content-ltr.mw-parser-output > table.infobox.vcard > tbody > tr:nth-child(4) > td > div > ul > li:nth-child(2) > span > a'
 
 fetch(wikiUrl)
     .then(response => response.text())
